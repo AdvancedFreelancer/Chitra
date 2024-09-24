@@ -1,0 +1,39 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.product-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    width: calc(33.333% - 2rem);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-item h3 {
+    margin: 1rem 0 0.5rem;
+}
+
+.product-item p {
+    margin: 0.5rem 0;
+}
+
+.product-item button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.product-item button:hover {
+    background-color: #555;
+}
